@@ -9,7 +9,7 @@ export default defineConfig({
     plugins: [
         tailwindcss(),
     ],
-    base: '/myportfolio/', // Configured for github.com/username/myportfolio
+    base: '/Myportfolio/', // Configured for github.com/username/Myportfolio
     build: {
         rollupOptions: {
             input: {

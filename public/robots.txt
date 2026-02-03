@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://balagangatharan7871.github.io/myportfolio/sitemap.xml
+Sitemap: https://balagangatharan7871.github.io/Myportfolio/sitemap.xml
 
 # AI Crawlers
 User-agent: GPTBot
