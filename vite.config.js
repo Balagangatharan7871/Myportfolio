@@ -9,7 +9,7 @@ export default defineConfig({
     plugins: [
         tailwindcss(),
     ],
-    base: '/Myportfolio/', // Configured for github.com/username/Myportfolio
+    base: '/myportfolio/', // Configured for github.com/username/myportfolio
     build: {
         rollupOptions: {
             input: {
@@ -18,7 +18,11 @@ export default defineConfig({
                 agency: resolve(__dirname, 'case-study-agency.html'),
                 dental: resolve(__dirname, 'case-study-dental.html'),
             }
-        }
+        },
+        minify: 'terser',
+        cssMinify: true,
+        assetsInlineLimit: 4096,
+        reportCompressedSize: true
     }
 })
 
